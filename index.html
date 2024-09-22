@@ -15,7 +15,7 @@
     >
       <div class="card p-4 shadow" style="max-width: 400px; width: 100%">
         <h3 class="mb-4 text-center">Login</h3>
-        <form action="/profile" method="post" novalidate>
+        <form action="/profilepage.html" method="post" novalidate>
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
             <input type="email" class="form-control" id="email" required />
@@ -28,6 +28,7 @@
               class="form-control"
               id="password"
               required
+              minlength="8"
             />
             <div class="invalid-feedback">
               Password must be at least 8 characters.
